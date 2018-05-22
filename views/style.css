@@ -1,0 +1,38 @@
+body {
+	background: gray;
+	min-height: 100vh;
+}
+
+form {
+	text-align: center;
+	margin: 20vh 50px 0;
+}
+
+form h2 {
+	font-size: 22px;
+	color: black;
+}
+
+.btn {
+	width: 100px;
+	cursor: pointer;
+	color: #97a;
+	height: 35px;
+	font-size: 22px;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #555;
+}
+
+.container {
+	margin: 50px;
+}
+
+.img {
+	background-image: url('./image/imgFind.jpg');
+	background-size: cover;
+	width: 600px;
+	min-height: 100px;
+}
