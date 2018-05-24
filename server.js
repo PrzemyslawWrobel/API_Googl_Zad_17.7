@@ -31,6 +31,7 @@ app.set('views', './views');
 app.use(passport.initialize());
 app.use(passport.session());
 
+
 //app routes
 app.get('/', function(req, res){
     res.render('index', { user: req.user });
